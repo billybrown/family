@@ -1,39 +1,30 @@
-<?php
-// multiple recipients
-$to = 'billybrown00@gmail.com';
-// subject
-$subject = 'New Brown Family History Idea!';
-// message
-$message = $_POST["fmessage"];
-
-mail($to, $subject, $message);
-?> 
-
-<head>
-
-<title>Brown Family History</title>
-	<meta name="keywords" content="nashville, brown, family history, brown family history, tennessee" />
-	<meta name="description" content="Documenting the Brown Family History" />
-	<base href="http://www.robobilly.com/familyhistory">
-		<link href='reset.css' rel='stylesheet' type='text/css' media='all'>
-		<link href='960.css' rel='stylesheet' type='text/css' media='all'>	
-	<link href='familyhistory/2010.css' rel='stylesheet' type='text/css' media='all'>
-	<link rel="icon" href="familyhistory/b.ico" />
-	
-</head>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Brown Family History</title>
+	<meta name="description" content="Documenting the Bill Brown Family History in Nashville, TN">
+	<meta name="author" content="Willy Dynomite - b.illbrown.com">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/screen.css" />
+	<script src="js/modernizr-1.7.min.js"></script>    
+  </head>
 
 <body>
 			<div class="center">
-			<a href="familyhistory/index.php"><img src="familyhistory/brownHistoryHeader.png" width="800"></a>
+			<a href="familyhistory/index.php"><img src="img/brownHistoryHeader.png" width="800"></a>
 			
 			
 			<h2>Your suggestion has been sent!</h2>
 			<div class="photoCaption">
-			<div class="photo"><img src="familyhistory/boat.jpg" width="500"></div>
+			<div class="photo"><img src="img/boat.jpg" width="500"></div>
 			<p class="caption">Photo of Rock Island found in Big's Photo box.</p>
 			</div>
 			
-			<div class="bumpdown"><p>Go back to the <a href="familyhistory/index.php">main page</a>.</p></div>
+			<div class="bumpdown"><p>Go back to the <a href="index.html">main page</a>.</p></div>
 
 			</div>
+</body>
+</html>
 

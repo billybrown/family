@@ -1,30 +1,25 @@
 {
-  "name": "Duels",
+  "name": "Family",
   "version": "1.0.0",
-  "description": "Famous duels, pixelated. Early experiments with css animation.",
+  "description": "Brown family history. Nashville, Tennessee",
   "main": "index.html",
   "scripts": {
     "test": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/billybrown/duels"
+    "url": "https://github.com/billybrown/family"
   },
   "keywords": [
-    "pixelart",
-    "pixel",
-    "illustrations",
-    "design",
-    "8bit",
-    "CSS",
-    "CSS3",
-    "CSS3 animations"
+    "family history",
+    "brown",
+    "bill brown"
   ],
   "author": "Bill Brown",
   "bugs": {
-    "url": "https://github.com/billybrown/duels/issues"
+    "url": "https://github.com/billybrown/family/issues"
   },
-  "homepage": "b.illbrown.com/duels",
+  "homepage": "b.illbrown.com/family",
   "engines": {
     "node": "~0.10.33"
   },
