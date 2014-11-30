@@ -1,0 +1,147 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video 
+{ margin:0;padding:0;border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }                 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section 
+{ display:block; }
+input:focus, textarea:focus {outline: none;}
+li {list-style: none;} a:hover, a {text-decoration: none; color: inherit;}
+h1,h2,h3,h4,h5,h6,p,li {text-align: left;}
+
+@font-face {
+    font-family: 'oldType';
+    src: url('fonts/regulaoldface-webfont.eot');
+    src: url('fonts/regulaoldface-webfont.eot?#iefix') format('eot'),
+         url('fonts/regulaoldface-webfont.woff') format('woff'),
+         url('fonts/regulaoldface-webfont.ttf') format('truetype'),
+         url('fonts/regulaoldface-webfont.svg#webfontFRDlij6D') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HN';
+    src: url('fonts/helveticaneue-webfont.eot');
+    src: url('fonts/helveticaneue-webfont.eot?iefix') format('eot'),
+         url('fonts/helveticaneue-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-webfont.ttf') format('truetype'),
+         url('fonts/helveticaneue-webfont.svg#webfontnvhRePth') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**** Base styles ****/
+body {
+background: #d6d6d6;
+margin: 0px auto 0px;
+padding: 0 20px;
+font-family: Georgia, Verdana;
+}
+
+h2 { 
+font-family: oldType, Georgia, Verdana; 
+font-size: 32px;
+color: #000;
+margin-bottom: 10px;
+}
+
+p {
+font: normal 16px/18px Georgia, Verdana;
+color: #4D4D4D;
+margin-bottom: 10px;
+}
+
+p a, a{
+color: #000;
+text-decoration: none;
+}
+
+p a:hover{
+text-decoration: underline;
+}
+
+header[role="banner"] img {
+width: 100%;
+max-width: 800px;
+}
+
+.post {
+margin-bottom: 20px;
+border-bottom: 1px dotted white;
+padding-bottom: 20px;
+}
+
+.leftColumn {
+width: 514px;
+float: left;
+margin-right: 20px;
+}
+
+.volume{
+margin: 0px 20px 0px 0px;
+float: left;
+width:224px;
+}
+
+#volumes a:nth-child(6n) > .volume {
+margin: 0px 0px 0px 0px;
+}
+
+.volume img{
+border: 7px solid #fff;
+width: 210px;
+}
+
+.volume .caption {
+color: #666;
+font-size: 14px;
+padding: 5px 5px 5px 5px;
+background: #fff;
+float: right;
+}
+
+div.photo img{
+border: 7px solid #fff;
+}
+
+p.caption {
+color: #666;
+font-size: 14px;
+padding: 5px 5px 5px 5px;
+background: #fff;
+float: right;
+}
+
+a:hover p.caption {
+background: #4D4D4D;
+color: #fff;
+text-decoration: none;
+}
+
+.photoCaption {
+width: 514px;
+margin: 0px auto 0px;
+}
+
+.info {
+font-style: italic;
+font-size: 14px;
+}
+
+embed {
+border: 7px solid #fff;
+background: #fff;
+margin-bottom: 5px;
+}
+
+.center {
+  padding: 0px 0px 0px 0;
+  margin: 0px auto 0px;
+  max-width: 960px;
+  text-align: center;
+}
+
+/* >> The Magnificent CLEARFIX: Updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+/* fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { zoom: 1;}
