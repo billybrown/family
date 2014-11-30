@@ -3,4 +3,4 @@ family
 
 Family history project
 
-b.illbrown.com/family
+[http://b.illbrown.com/family](b.illbrown.com/family)
